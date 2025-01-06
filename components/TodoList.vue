@@ -70,7 +70,7 @@ const currentLocale = ref(locale.value)
 
 // onMounted 時間差
 if (process.client) {
-    const locale = localStorage.getItem('locale') || 'zh';
+    const locale = ('locale') || 'zh';
     currentLocale.value = locale;
 }
 

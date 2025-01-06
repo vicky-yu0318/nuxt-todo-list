@@ -15,7 +15,9 @@
     "axios": "^1.7.2",
     "json-server": "^1.0.0-beta.1",
     "nuxt": "^3.12.3",
+    "vee-validate": "^4.15.0",
     "vue": "latest",
-    "vue-i18n": "^9.13.1"
+    "vue-i18n": "^9.13.1",
+    "yup": "^1.6.1"
   }
 }
